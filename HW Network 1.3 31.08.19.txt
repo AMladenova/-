@@ -1,0 +1,52 @@
+Task 1. Convert from decimal to binary.
+??”??”??”??”??”??”??”??”??”??”
+| Decimal | Binary   |
+??”??”??”??”??”??”??”??”??”??”
+|    192  | 11000000 |
+??”??”??”??”??”??”??”??”??”??”
+|    168  | 10101000 |
+??”??”??”??”??”??”??”??”??”??”
+|     10  | 00001010 |
+??”??”??”??”??”??”??”??”??”??”
+|    255  | 11111111 |
+??”??”??”??”??”??”??”??”??”??”
+|      2  | 00000010 |
+??”??”??”??”??”??”??”??”??”??”
+
+Task 2. Convert the following IPv4 addresses to binary (with dots).
+192.168.10.10      11000000.10101000.00001010.00001010
+209.165.200.229    11010001.10100101.11001000.11100101
+172.16.18.183      10101100.00010000.00010010.10110111
+10.86.252.17       00001010.01010110.11111100.00010001
+255.255.255.128    11111111.11111111.11111111.10000000
+255.255.192.0      11111111.11111111.11000000.00000000
+
+Task 3. Write down the NETWORK address using the ANDing operation.
+
+IP Address: 172.16.145.29
+Subnet Mask: 255.255.0.0
+Network Address: 172.16.145.0/16 
+
+IP Address: 192.168.10.10
+Subnet Mask: 255.255.255.0
+Network Address: 192.168.10.0/24 
+
+IP Address: 192.168.68.210
+Subnet Mask:255.255.255.128
+Network Address: 192.168.68.0/25
+
+IP Address: 172.16.188.15
+Subnet Mask: 255.255.240.0
+Network Address: 172.16.188.0/20
+
+IP Address: 10.172.2.8
+Subnet Mask: 255.224.0.0
+Network Address: 10.172.2.0/11
+
+Task 4. Determine whether IP addresses are on the same network.
+
+PC-A is given IP address: 192.168.1.18
+PC-B is given IP address: 192.168.1.33
+Both PCs have subnet mask 255.255.255.240
+
+What is the network address for PC-A and PC-B? 192.168.1.0/28 
